@@ -42,3 +42,19 @@ components.
 • others: To construct a more generalized dataset, the
 others class is included in this dataset, and it does not
 contain any tabular entities.
+![table](https://user-images.githubusercontent.com/83969166/233459820-ae0b6f54-5970-4ac7-b416-76636cee6c9f.jpg)
+
+# Installing Dependencies
+```python
+pip install tensorflow-addons==0.10.0
+pip install -U torch==1.5 torchvision==0.6 -f https://download.pytorch.org/whl/cu101/torch_stable.html
+pip install cython pyyaml==5.1
+pip install -U 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
+pip install detectron2==0.1.3 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/torch1.5/index.html
+```
+# INPUT IMAGE
+   ![315](https://user-images.githubusercontent.com/83969166/233460533-b3da74c2-dab7-4af5-8a73-c10f315e9fda.png)
+# OUTPUT IMAGE
+![315_out](https://user-images.githubusercontent.com/83969166/233460670-7a1703c7-b67c-422d-9087-f426c38de62e.png)
+
+
